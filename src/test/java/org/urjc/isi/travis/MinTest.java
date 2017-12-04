@@ -23,7 +23,7 @@ public class MinTest
    @Test
    public void testForNullList()
    {
-      list = null;
+      //list = null;
       try {
          Min.min (list);
       } catch (NullPointerException e) {
